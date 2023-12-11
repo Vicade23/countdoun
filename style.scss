@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+    background-color: rgb(243, 243, 250);
+    .main {
+        width: 100%;
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-right: 5px;
+            margin-left: 5px;
+            background-color: rgb(48, 32, 58);
+            padding: 10px;
+            .number {
+                font-size: 60px;
+                color: #fff;
+                letter-spacing: 2px;
+                text-align: center;
+            }
+            .type {
+                text-align: center;
+                color: rgb(255, 255, 255);
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
